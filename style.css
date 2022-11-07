@@ -156,20 +156,25 @@ padding-bottom: 24px;
 .services_wrap{
     display: flex;
     flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.service-1-class{
+.service-1{
   display: flex;
-  width: calc(100%-3);
+  width: calc(100%/3);
+  padding: 24px;
 }
 .service_description{
  display: flex;  
+ flex-direction: column;
 }
 
 .second_title{
  font-size: 24px;
    color:rgb(36 62 99 )  ;
    font-weight: 700;
+   padding-bottom: 16px;
 }
 
 .description{
@@ -191,43 +196,163 @@ i{
 /* THIRD SECTION */
 
 
-
-
-.third_button{
-background-color:rgb(100 21 255) ;
-
+.section_three{
+    display: flex;
+    width: 60%;
 }
 
+.section_container_third{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.h2_third{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    position: relative; bottom: 24px;
+}
 
+.third_header{
+    font-size: 46px;
+    font-weight: 1000;
+    line-height: 1.5;
+    color: rgb(36 62 99 ) ;
+    position: relative; bottom: 20px;
+
+}
+.third_button{
+background-color:rgb(100 21 255) ;
+border: none;
+color: white;
+font-size: 14px;
+font-weight: bold;
+padding: 8px 16px;
+cursor: pointer;
+border-radius: 999px;
+width: 35%;
+height: 9%;
+margin-top: 20px;
+}
+.third_para{
+    color: rgb(124 139 161);
+    line-height: 1.4;
+font-size: 19px;
+position: relative; bottom: 15px;
+}
+
+.third_img{
+    width: 40%;
+    position: relative; left: 100px;
+}
+
+.third_img-class{
+    width:670px;
+}
 
 /* FOURTH SECTION */
 
+.fourth_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    width: 100%;
+    padding-bottom: 120px;
+}
+.fth_img{
+    width:60%;
+    position: relative; right: 48px;
+}
 
+.fth_img-class{
+    width: 650px;
+    height: 350px;
+}
 
-
-
+.steps_text{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: top left;
+    position: relative; bottom: 40px;
+}
+.purple_text1{
+    color: rgb(100 21 255);
+}
+.fourth_header{
+    font-size: 46px;
+    text-align: left;
+    line-height: 1.3;
+    position: relative; bottom: 36px;
+    color: rgb(36 62 99 ) ;
+}
 
 .numbers_sec{
-    
-    color:rgb(124 139 161) ;}
-
-.numbers{
-   
-    color: rgb(36 62 99 );
+    color:rgb(124 139 161) ;
+display: flex;
 
 }
 
+.numbers-position{
+font-size: 35px;
+padding-bottom: 14px;
+text-align: left;
+}
+
+.numbers{
+   display: flex;
+   flex-direction: column;
+    color: rgb(36 62 99 );
+    padding-left: 20px;
+
+}
+.numbers_para{
+    font-size: 18px;
+    font-weight: 200;
+    position: relative; left: 60px;
+    line-height: 1.3;
+    position: relative; bottom: 24px;
+    color: rgb(113 128 150);
+}
 
 
 /* LAST SECTION */
 
+.last_sec{
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 24px;
+    padding-bottom: 30px;
+}
+
 .header_section-5{
-   
+   text-align: center;
+   font-size: 50px;
 color: rgb(36 62 99 ) ;
+font-weight: bold;
 }
 
 .last_para{
     color: rgb(124 139 161);
+    margin: 0 auto;
+    font-size: 18px;
+    width: 100%;
+    line-height: 1.6;
+    max-width: 36rem;
+    padding: 24px 24px;
+}
+
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+   text-align: center;
+   padding: 48px 48px;
+   
+}
+
+.last_plan{
+ position: relative; left: 75px;
+ padding: 48px 48px;
 }
 
 
@@ -288,17 +413,61 @@ color: rgb(36 62 99 ) ;
 background-color: rgb(100 21 255); 
 }
 
-
-
-
-
-
-
-
-
-
-.whity-para-lol{
-color: rgb(203 213 224 ) ;
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 36px 40px;
 
 }
 
+.linkz-info-fith{
+display: flex;
+flex-direction: column;
+width: calc(100%/5);
+align-items: center;
+
+}
+
+.h5_class-color{
+color: rgb(226, 232, 240);
+font-size: 22px ;
+padding-bottom: 24px;
+position: relative; left: 22px;
+}
+
+.links-para-five{
+    list-style-type: none;
+
+  
+}
+.styling_five{
+    color: rgb(226, 232, 240); 
+    font-size: 14px;
+    font-weight: thin;
+}
+
+.whity-para-lol{
+color: rgb(203 213 224 ) ;
+position: relative; right: 140px;
+
+}
+
+.footer_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last-fith-img{
+    width: 50px;
+}
+
+.h5_class-color-treat{
+    color:rgb(203 213 224 ) ;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative; right: 245px;
+}
