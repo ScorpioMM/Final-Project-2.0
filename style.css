@@ -355,7 +355,6 @@ font-weight: bold;
  padding: 48px;
 }
 
-
 .personal_tagetting{
 padding-top: 10px;
 padding-bottom: 10px;
@@ -367,7 +366,7 @@ font-weight: bold;
     background-color:rgb(129, 230, 217) ;
 }
 
-.firt-last_price{
+.firt-last_price,.second_price{
     font-size: 26px;
 font-weight: 1000;
 padding-bottom: 4px;
@@ -384,12 +383,16 @@ padding-bottom: 4px;
   line-height: 1.7;
 }
 
+.button-container-51{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
 .button-container-5{
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-.first-last-months{
+.first-last-months, .monthly_second{
     padding-bottom: 14px;
  
 }
@@ -402,7 +405,9 @@ padding-bottom: 4px;
     padding-top: 24px;
 }
 
-
+.second_price{
+    position: relative; bottom: 20px;
+}
 
 .backgroundclass2{
     background-color:rgb(100 21 255) ;
@@ -430,11 +435,11 @@ color: white;
 }
 
 .thing-borders{
-    border-style: groove;
+    border-style: solid;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
     border-color: rgb(129, 230, 217) ;
-padding-top: 4px;
+padding-top: 8px;
     background-color:rgb(129, 230, 217) ;
     box-sizing: border-box;
 }
@@ -446,15 +451,71 @@ padding-top: 4px;
     width: 100%;
 }
 
+.boxeslolol2{
+    position: relative; bottom: 18px;
+    border-style: solid;
+    border-color:  rgb(226, 232, 240);
+    box-sizing: border-box;
+    width: 100%;
+}
+.boxeslolol27{
+    position: relative; bottom: 0px;
+    border-style: solid;
+    border-color:  rgb(226, 232, 240);
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.boxeslolol3{
+    position: relative; bottom: 2px;
+    border-style: solid;
+    border-color:  rgb(226, 232, 240);
+    box-sizing: border-box;
+  }
 
 
+.boxeslolol38{
+    position: relative; top: 8px;
+    border-style: solid;
+    border-color:  rgb(226, 232, 240);
+    box-sizing: border-box;
+  }
 
 
+.backgroundclass22{
+box-sizing: border-box;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    position: relative; bottom: 43px;
+}
 
+.second-header{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 24px;
+    position: relative; bottom: 22px;
+    max-width: 100%;
+}
 
+.last-paragraphs-css2{
+    color: white;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    line-height: 1.7;
+    position: relative; bottom: 22px;
+}
 
+.second_h1{
+    padding: 24px 24px;
+    position: relative; bottom: 12px;
+    color: ;
+}
 
-
+.monthly_second{
+    position: relative; bottom: 16px;
+}
 
 
 .first_button-last{
@@ -468,12 +529,49 @@ padding-top: 4px;
 }
 
 .second_button{
-    color:rgb(100 21 255) ;}
+    color:white ;
+    border-radius: 999px;
+    padding: 8px 16px;
+    color: rgb(100 21 255);
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+}
   
 
 .third_button-sec3{
-    background-color: rgb(245, 101, 101);}
+background-color: rgb(245, 101, 101);
+padding: 8px 16px;
+border-radius: 999px;
+border-style: none;
+color: white;
+cursor: pointer;
 
+}
+
+
+.backgroundclass22{
+    padding: 22px;
+}
+
+.red-border{
+    border-style: solid;
+    padding-top: 8px;
+    border-color: rgb(245, 101, 101);
+    background-color: rgb(245, 101, 101);
+    box-sizing: border-box;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.background_lines21{
+    border-style: solid;
+    border-color:rgb(226, 232, 240) ;
+border-top-left-radius:10px ;
+border-top-right-radius:10px ;
+border-bottom-right-radius:10px ;
+border-bottom-left-radius:10px ;
+}
 
 /* FOOTER AND MAIN MENU */
 
