@@ -352,35 +352,99 @@ font-weight: bold;
 
 .last_plan{
  position: relative; left: 75px;
- padding: 48px 48px;
+ padding: 48px;
 }
 
+
+.personal_tagetting{
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 30px;
+font-weight: bold;
+}
 
 .backgroundclass{
     background-color:rgb(129, 230, 217) ;
 }
 
-
-
-
+.firt-last_price{
+    font-size: 26px;
+font-weight: 1000;
+padding-bottom: 4px;
+}
 
 .first-last-months{
-   
     color: rgb(124 139 161);
 }
 
 .last-paragraphs-css{
-  
     color: rgb(124 139 161);
-  
+  padding-bottom: 24px;
+  padding-top: 24px;
+  line-height: 1.7;
 }
+
+.button-container-5{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.first-last-months{
+    padding-bottom: 14px;
+ 
+}
+
+.individuals-class{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 24px;
+}
+
 
 
 .backgroundclass2{
     background-color:rgb(100 21 255) ;
-
+border-top-left-radius: 10px;
+border-top-right-radius:10px ;
 }
 
+.backgroundclass21{
+    background-color:rgb(100 21 255) ;
+}
+
+.backgroundclass22{
+    background-color:rgb(100 21 255) ;
+}
+
+.second_h1, .second_price,
+.second-header, .monthly_second{
+color: white;
+}
+
+.backgroundclass1{
+    border-style: solid;
+    border-radius:10px ;
+    border-color: rgb(226, 232, 240);
+}
+
+.thing-borders{
+    border-style: groove;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-color: rgb(129, 230, 217) ;
+padding-top: 4px;
+    background-color:rgb(129, 230, 217) ;
+    box-sizing: border-box;
+}
+
+.boxeslolol{
+    border-style: solid;
+    border-color:  rgb(226, 232, 240);
+    box-sizing: border-box;
+    width: 100%;
+}
 
 
 
@@ -395,7 +459,12 @@ font-weight: bold;
 
 .first_button-last{
     background-color: rgb(129, 230, 217);
-   
+   border-radius: 999px;
+   padding: 8px 16px;
+   color: white;
+   font-size: 14px;
+   cursor: pointer;
+   border: none;
 }
 
 .second_button{
