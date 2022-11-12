@@ -638,3 +638,23 @@ position: relative; right: 140px;
     font-weight: bold;
     position: relative; right: 245px;
 }
+
+
+/* RESPONSINESS */ 
+
+
+
+@media (max-width: 768px) {
+
+nav{
+    height: 68px;
+}
+.first_para{
+font-size: 28px ;
+}
+
+.second_para{
+
+}
+
+}
