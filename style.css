@@ -647,14 +647,84 @@ position: relative; right: 140px;
 @media (max-width: 768px) {
 
 nav{
-    height: 68px;
+    height: 48px;
+    position: relative; top: 40px;
 }
 .first_para{
-font-size: 28px ;
+font-size: 14px ;
 }
+
+.logo_img1{
+
+}
+
+
 
 .second_para{
 
 }
+
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    nav{
+        height: 68px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .about_me-info-para{
+        font-size: 18px;
+
+    }
+.language{
+width: calc(100% / 3);
+}
+.project_description-para{
+    font-size: 14px;
+}
+
+.project_description{
+    left: 30px;
+    padding-right: 30px;
+}
+}
+
+
+@media (max-width:480px) {   
+    .nav_link:not(:last-child) {
+        display: none;
+    }
+
+
+    .project_description{
+        padding: 0;
+        left: 0;
+        width: 100%;
+    }
+.project_description-para{
+    display: none;
+
+}
+.project_description-links{
+    display: flex;
+    justify-content: center;
+}
+.project_description-title{
+    line-height: 1;
+    font-size: 32px;
+    text-align: center;
+}
+
+.project_description-sub-title{
+    text-align: center;
+    margin: 12px 0;
+}
+
 
 }
