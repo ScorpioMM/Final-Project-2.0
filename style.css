@@ -104,6 +104,8 @@ border: none;
 color: white;
 position: absolute;
 cursor: pointer;
+position: relative; left: 370px;
+position: relative; bottom: 42px;
 }
 
 input{
@@ -186,7 +188,18 @@ padding-bottom: 24px;
 
 .img-2{
     color: rgb(100 21 255); ;
+
 }
+
+.fa-solid{
+    border: solid;
+    border-radius: 50%;
+    border-color: rgb(226, 232, 240);
+    padding: 1.25rem;
+border-width: 1px;
+
+}
+
 i{
     height: 1.5rem;
     width: 1.5rem;
@@ -638,6 +651,18 @@ position: relative; right: 140px;
     font-weight: bold;
     position: relative; right: 245px;
 }
+
+
+.fa-brands{
+   border: none;
+    border: solid;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: white;
+    width: 29px;
+    height: 29px;
+}
+
 
 
 /* RESPONSINESS */ 
