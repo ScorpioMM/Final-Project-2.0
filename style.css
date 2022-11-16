@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .row{
 width: 100%;
 max-width: 1200px;
@@ -18,6 +22,7 @@ nav{
     align-items: center;
     padding-bottom: 100px;
     padding-top: 10px;
+    width: 100%;
 }
 .logo_img1{
     width: 200px;
@@ -33,6 +38,11 @@ font-size: 16px;
 padding-left: 46px;
 
 }
+
+a:hover{
+    text-decoration: underline;
+}
+
 .first_button{
     padding-left: 26px;
 font-size: 24px;
@@ -121,6 +131,57 @@ input{
 }
 
 
+.bttn_burger{
+    border: none;
+    color: rgb(100 21 255) ;
+    background-color: transparent;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu_backdrop{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    display: none;
+}
+
+.menu_open .menu_backdrop {
+    display: flex;
+}
+
+.bttn_burger-close{
+ position: absolute;  
+ right: 20px;
+ top: 10px; 
+ padding: 8px;
+ color: white;
+}
+
+.menu_links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_list{
+    padding: 32px 0px;
+}
+
+.menu_link{
+    color: white;
+    font-size: 14px;
+}
 
 /* FEATURES SECTION */
 
@@ -523,7 +584,6 @@ box-sizing: border-box;
 .second_h1{
     padding: 24px 24px;
     position: relative; bottom: 12px;
-    color: ;
 }
 
 .monthly_second{
@@ -551,6 +611,7 @@ box-sizing: border-box;
     border: none;
 }
   
+
 
 .third_button-sec3{
 background-color: rgb(245, 101, 101);
@@ -666,90 +727,45 @@ position: relative; right: 140px;
 
 
 /* RESPONSINESS */ 
+/* TABLETS */ 
 
-
-
-@media (max-width: 768px) {
+@media (max-width: 768px) { 
 
 nav{
-    height: 48px;
-    position: relative; top: 40px;
+      
 }
-.first_para{
-font-size: 14px ;
-}
+
+
 
 .logo_img1{
+        width: 100px;
+  }
+
+.list_type{
+size-adjust: 100px;
+}
+
 
 }
 
 
 
-.second_para{
-
-}
-
-}
 
 
 
+@media (max-width:550px) {  
 
-
-
-@media (max-width: 768px) {
-    nav{
-        height: 68px;
+    .bttn_burger{
+        position: relative; bottom: 12px;
+        display: block;
     }
-    h1{
-        font-size: 28px;
-    }
-    .about_me-info-para{
-        font-size: 18px;
-
-    }
-.language{
-width: calc(100% / 3);
-}
-.project_description-para{
-    font-size: 14px;
-}
-
-.project_description{
-    left: 30px;
-    padding-right: 30px;
-}
-}
-
-
-@media (max-width:480px) {   
-    .nav_link:not(:last-child) {
-        display: none;
-    }
-
-
-    .project_description{
-        padding: 0;
-        left: 0;
-        width: 100%;
-    }
-.project_description-para{
+    .list_type{
     display: none;
 
 }
-.project_description-links{
-    display: flex;
-    justify-content: center;
-}
-.project_description-title{
-    line-height: 1;
-    font-size: 32px;
-    text-align: center;
+.logo_img1{
+    width: 160px;
+    align-items: center;
 }
 
-.project_description-sub-title{
-    text-align: center;
-    margin: 12px 0;
-}
-
-
-}
+ }
