@@ -1,6 +1,6 @@
 function openMenu(){
-    document.body.classList+= "menu_open"
+    document.body.classList+= ("menu_open")
 }
 function closeMenu(){
-document.body.classList.remove ('bttn_burger-close')
+document.body.classList.remove ('menu_open')
 }
