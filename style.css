@@ -148,6 +148,8 @@ input{
     right: 0;
     bottom: 0;
     z-index: 100;
+    width: 100vh;
+    height: 100vh;
     padding: 8px;
     display: flex;
     justify-content: center;
@@ -160,12 +162,13 @@ input{
     display: flex;
 }
 
-.bttn_burger-close{
+.bttn_menu-close{
  position: absolute;  
- right: 20px;
+ right: 10px;
  top: 10px; 
  padding: 8px;
  color: white;
+
 }
 
 .menu_links{
@@ -729,34 +732,12 @@ position: relative; right: 140px;
 /* RESPONSINESS */ 
 /* TABLETS */ 
 
-@media (max-width: 768px) { 
-
-nav{
-      
-}
-
-
-
-.logo_img1{
-        width: 100px;
-  }
-
-.list_type{
-size-adjust: 100px;
-}
-
-
-}
-
-
-
-
-
 
 @media (max-width:550px) {  
 
     .bttn_burger{
         position: relative; bottom: 12px;
+        position: relative; right: 34px;
         display: block;
     }
     .list_type{
@@ -764,8 +745,33 @@ size-adjust: 100px;
 
 }
 .logo_img1{
-    width: 160px;
+    width: 150px;
     align-items: center;
 }
+
+.first_row{
+    flex-direction: column;
+}
+
+.first_img-1{
+    width: 100%;
+    position: relative; bottom: 40px;
+}
+
+.img_review{
+    width: 250px;
+    padding-top: 20px;
+
+}
+
+.second-img-2{
+    width: 100%;
+}
+
+.second_img-1{
+    width: 580px;
+    position: relative; top: 60px;
+}
+
 
  }
